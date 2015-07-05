@@ -1,0 +1,9 @@
+[package]
+name = "try_opt"
+version = "0.1.0"
+authors = ["Mika Attila <radiantstatue@gmail.com>"]
+license = "MIT"
+description = "Like try!, but for Option"
+readme = "README.md"
+repository = "https://github.com/crumblingstatue/try_opt"
+keywords = ["early", "return", "try", "option"]
