@@ -27,6 +27,7 @@
 ///     assert_eq!(map_add_checked(&map, "baz", "qux"), None);
 /// }
 /// ```
+#[deprecated(since = "0.2.0", note = "Use the question mark (?) operator in newer versions of Rust.")]
 macro_rules! try_opt {
     ($e:expr) =>(
         match $e {
